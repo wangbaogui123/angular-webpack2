@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('../fonts/sourcesanspro/sourcesanspro-light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/sourcesanspro/sourcesanspro-extralight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('../fonts/sourcesanspro/sourcesanspro.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url('../fonts/sourcesanspro/sourcesanspro-bold.woff') format('woff');
+}
+@font-face {
+  font-family: "kaushan";
+  
+  src: url('../fonts/kaushan.woff')format('woff'),url('../fonts/kaushan.ttf');
+}
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1491987957686'); /* IE9*/
+  src: url('iconfont.eot?t=1491987957686#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1491987957686') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1491987957686') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1491987957686#iconfont') format('svg'); /* iOS 4.1- */
+}

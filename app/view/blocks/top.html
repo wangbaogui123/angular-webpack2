@@ -1,0 +1,43 @@
+<div class="gb-top-box">
+	<ul class="top" id="gb-top">
+
+		<li class="left one"><img src="img/logo2.png"></li>
+		<li class="left two"><img src="img/logo.png"></li>
+		
+		<li class="right one" ng-click="topShow()"><img src="img/other.png"></li>
+		<li class="right two" ng-click="topShow()"><img src="img/other-1.png"></li>
+
+	</ul>
+	<div class="top-cont" ng-if="top.show">
+		<ul class="cont">
+			<li><a ui-sref="home" ui-sref-opts="{reload: true}" ><span><img src="img/icon4.png"></span><span>首页</span></a></li>
+			<li><a ui-sref="price" ui-sref-opts="{reload: true}" ><span><img src="img/icon2.png"></span><span>价格</span></a></li>
+			<li>
+				<a href=""><span><img src="img/icon1.png"></span><span>产品</span></a>
+				<a ui-sref="linkpage" ui-sref-opts="{reload: true}" class="tit" ng-click="topShow()">LinkPage</a>
+				<a ui-sref="linkactive" ui-sref-opts="{reload: true}"  class="tit">LinkActive</a>
+			</li>
+			<li>
+				<a href=""><span><img src="img/icon3.png"></span><span>开发者</span></a>
+				<a href="https://www.linkedme.cc/doc/content/LinkPage-Integration.html" class="tit">文档中心</a>
+				<a href="https://www.linkedme.cc/doc/content/sdk-download.html" class="tit">SDK下载</a>
+			</li>
+		</ul>
+		<div class="line"></div>
+		<ul class="list">
+			<li><a href="https://www.linkedme.cc/blog/square">BLOG</a></li>
+			<li><a ui-sref="join_us({hash:'join'})">加入我们</a></li>
+			<li><a ui-sref="join_us({hash:'about'})" >关于我们</a></li>
+		</ul>
+		<div class="line"></div>
+		<div ng-if="!has_login">
+			<div class="gb-btn2"><a href="https://www.linkedme.cc/dashboard/index.html#/access/signup">免费试用</a></div>
+
+			<div class="gb-btn1"><a href="https://www.linkedme.cc/dashboard/index.html#/access/signin">登录</a></div>
+		</div>
+		<div>
+			<div ng-if="has_login" class="gb-btn3"><a href="https://www.linkedme.cc/dashboard/index.html#/">进入dashboard</a></div>
+		</div>
+	</div>
+	
+</div>

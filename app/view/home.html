@@ -1,0 +1,161 @@
+
+<div class="home-box">
+	<!-- 首页第一部分 -->
+	<div class="top gb-home-box">
+		<p>Deep Linking</p>
+		<p>深度链接（Deep Linking），可以从手机中任何地方将用户导入APP内的指定页面。LinkedME——国内首家企业级深度链接服务提供商，致力于帮助APP解决用户增长（拉新、拉活、留存、转化等）和流量变现等问题。</p>
+		<p><a href="https://www.linkedme.cc/dashboard/index.html#/access/signup" style="color:#fff">免费试用</a></p>
+		<div class="show-box">	
+			<div class="imgbox">
+				<ul ng-class="{true: 'active', false: 'inactive'}[home.active]">
+					<li>
+						<img src="./img/toutiao1.png">
+						<div class="toutiao" ng-click="showImg()">
+							<div id="dot"></div>
+						</div>
+					</li>
+					<li>
+						<div class="goback" ng-click="showImg()"><div id="dot"></div></div>
+						<img src="./img/toutiao2.png">
+					</li>
+				</ul>   
+			</div>
+		</div>
+	</div>
+	<!-- 解决的问题 -->
+	<div class="cont1">
+		<p class="msg" style="font-weight:100;">what we do</p>
+		<p class="msg">解决了什么问题</p>
+		<ul class="list">
+			<li ng-class="{true:'cur',false:''}[home.msgIndex == '0']" ng-click="msgShow(0)">唤醒指定页面</li>
+			<li ng-class="{true:'cur',false:''}[home.msgIndex == '1']" ng-click="msgShow(1)">场景还原</li>
+			<li ng-class="{true:'cur',false:''}[home.msgIndex == '2']" ng-click="msgShow(2)">沉默用户唤醒</li>
+			<li ng-class="{true:'cur',false:''}[home.msgIndex == '3']" ng-click="msgShow(3)">数据监测</li>
+		</ul>
+
+		<div class="msgbox" ng-if="home.msgIndex == 0">
+			<div class="cont">
+				<div class="msg1-box">
+					<div class="videobox">
+						<video controls preload="none" poster="./img/video1.png" src="https://www.linkedme.cc/img/LInkPage.mp4" type="video/mp4" id="video1" >
+						</video>
+					</div>
+				</div>
+			</div>
+			<p><span style="font-size:1.3rem;">用</span>户已安装APP的情况下，在微信、微博、短信、邮件等其他任何APP内点击深度链接后，Deep Linking技术会判断手机是否已经安装APP，若安装则直接打开APP内的详情页面。</p>
+		</div>
+
+		<div class="msgbox" ng-if="home.msgIndex == 1">
+			<div class="cont">
+				<div class="msg1-box">
+					<div class="videobox">
+						<video controls preload="none" poster="./img/video2.png" src="https://www.linkedme.cc/img/li.mp4" type="video/mp4">
+						</video>
+					</div>	
+				</div>
+			</div>
+			<p><span style="font-size:1.3rem;">用</span>户未安装APP的情况下，通过深度链接可以直接跳转到应用商店下载，并在下载打开APP后直接跳转到详情页，从而还原之前的使用场景。</p>
+		</div>
+
+		<div class="msgbox" ng-if="home.msgIndex == 2">
+			<div class="cont">
+				<div class="msg2-box">
+					<div class="videobox">
+						<video controls preload="none" poster="./img/video3.png" src="https://www.linkedme.cc/img/vancl.mp4" type="video/mp4">
+						</video>
+					</div>	
+				</div>
+			</div>
+			<p><span style="font-size:1.3rem;">给</span>沉默用户发送运营信息，例如通过短信发送产品优惠券，用户点击短信中的深度链接就能直接打开APP并自动领取优惠券，提高运营转化和用户体验。</p>
+		</div>
+		<div class="msgbox" ng-if="home.msgIndex == 3">
+			<div class="cont">
+				<img src="./img/dashboard.png" style="dispaly:block;width:100%;height:auto;margin-bottom:4rem;">
+			</div>
+			<p><span style="font-size:1.3rem;">完</span>善的数据监测体系，专业的可视化数据分析中心帮助您分析深度链接的所有信息，直观观察营销活动趋势，优化市场推广的策略。</p>
+		</div>
+	</div>
+
+	<!-- 我们的优势 -->
+	<div class="cont2">
+		<div class="tit">
+			<p>Benefits</p>
+			<p>我们的优势</p>
+			<p></p>
+		</div>
+		<div class="list">
+			<dl>
+				<dt><img src="https://www.linkedme.cc/img/main/cross-plat.png"></dt>
+				<dd>支持Android，iOS，Hybrid App；实现Web和App互通，App之间互联通；</dd>
+			</dl>
+			<dl>
+				<dt><img src="https://www.linkedme.cc/img/main/3-circle.png"></dt>
+				<dd>轻量级SDK，简单API，20分钟集成SDK，即刻拥有深度链接；</dd>
+			</dl>
+			<dl>
+				<dt><img src="https://www.linkedme.cc/img/main/ana.png"></dt>
+				<dd>专业友好的Dashboard，轻松分析所有链接的点击信息；</dd>
+			</dl>
+			<dl>
+				<dt><img src="https://www.linkedme.cc/img/main/secure.png"></dt>
+				<dd>针对APP内所有页面，统一分配唯一的深度链接，并已安全加密；</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 效果 -->
+
+	<div class="effect-box gb-home-box">
+		<ul>
+			<li>
+				<div>
+					<p>1.5X</p>
+					<p>新增用户</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<p>2.8X</p>
+					<p>活跃用户</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<p>2X</p>
+					<p>留存率</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<!-- 合作伙伴 -->
+	<div class="cooperative">
+		<div class="ca-top">
+			<p>Happy Partners</p>
+			<p>合作伙伴这样说</p>
+			<p><img src="https://www.linkedme.cc/img/main/quotation.png"></p>
+		</div>
+		<div class="ca-cont">
+			<p class="msg">{{home.ca.tit}}</p>
+			<div class="user">
+				<p class="left" ng-click="left()"><img src="./img/arrow-left.png"></p>
+				<div class="center">
+					<p><img ng-src="{{home.ca.url}}"></p>
+					<div class="line"></div>
+					<p><span>{{home.ca.company}}</span>&nbsp&nbsp&nbsp&nbsp<span>{{home.ca.job}}</span></p>
+					<p>{{home.ca.name}}</p>
+				</div>
+				<p class="right" ng-click="right()"><img src="./img/arrow-right.png"></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 我们的用户 -->
+
+	<div class="user-list">
+		<p>Our clients</p>
+		<p>我们的客户</p>
+		<p></p>
+		<img src="./img/custom1.png">
+	</div>
+</div>

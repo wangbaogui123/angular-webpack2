@@ -1,0 +1,199 @@
+.price-box{
+	width: 100%;
+	height: auto;
+}
+.price-box .top{
+	width: 100%;
+	padding-top: 4.8rem;
+	height: 9rem;
+}
+.price-box .top p:nth-child(1){
+	width: 100%;
+	color: #fff;
+	font-size: 2.2rem;
+	line-height: 4rem;
+	font-weight: 100;
+}
+.price-box .top p:nth-child(2){
+	width: 100%;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 2rem;
+	font-weight: 100;
+}
+.price-box .cont{
+	width: 100%;
+	height: auto;
+	padding: 2rem 0;
+}
+.price-box .cont .tit{
+	width: 100%;
+	height: auto;
+}
+.price-box .cont .tit > p:nth-child(1){
+	color: #39c8bd;
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 2.5rem;
+}
+.price-box .cont .tit > p:nth-child(2){
+	line-height: 2rem;
+	font-size: 1rem;
+}
+.price-box .cont .tit ul{
+	width: 100%;
+	height: 49rem;
+	margin: 2rem 0;
+	position: relative;
+	background: url(../img/bg5.png)no-repeat;
+	background-position: 0 17rem;
+	background-size: 100% auto; 
+}
+.price-box .cont .tit ul li {
+	width: 17rem;
+	height: 14rem;
+	margin: 0 auto;
+	border-radius:.2rem;
+	box-shadow: 0 0 15px #d8d9d9;
+	padding: 1rem 0;
+	position: absolute;
+	z-index: 1;
+	top:0;
+	left:50%;
+	margin-left: -8.5rem;
+	background: #fdfdff;
+
+}
+.price-box .cont .tit ul li:nth-child(2){
+	z-index: 3;
+	width: 19rem;
+	margin-left: -9.5rem;
+	height: 16rem;
+	top:16rem;
+	background: #fff;
+
+}
+.price-box .cont .tit ul li:nth-child(3){
+	z-index: 2;
+	top:33.5rem;
+	padding-top: 2rem;
+	height: 13rem;
+}
+.price-box .cont .tit ul li p{
+	line-height: 3rem;
+	height: 3rem;
+	color: #1f1f1f;
+	font-weight: normal;
+}
+.price-box .cont .tit ul li p:nth-child(1){
+	font-size: 1rem;
+}
+.price-box .cont .tit ul li p:nth-child(2){
+	font-size: .9rem;
+}
+.price-box .cont .tit ul li p:nth-child(3){
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+.price-box .cont .tit ul li p:nth-child(4){
+	font-size: 1rem;
+	color: #f49e74;
+	border: 1px solid #f49e74;
+	border-radius: .5rem;
+	width: 8.2rem;
+	margin: 1rem auto;
+	height: 2.3rem;
+	line-height: 2.3rem;
+}
+.price-box .cont .tit ul li.cur{
+	padding-top:2rem;
+	height: 15rem; 
+}
+.price-box .cont .tit ul li.cur span{
+	position: absolute;
+	right: .5rem;
+	display: block;
+	width: 5rem;
+	color: #fff;
+	height: 1.5rem;
+	top:.5rem;
+	background: #f5c221;
+	font-size: .8rem;
+	border-radius: .5rem;
+	line-height: 1.5rem;
+}
+.price-box .cont .tit ul li.cur .btn{
+	background: #f39669;
+	color: #fff;
+	border: none;
+}
+
+.linkActive-box p:nth-child(1){
+	font-size: 1.5rem;
+	color: #34c7bb;
+	font-weight: normal;
+	line-height: 3rem;
+}
+.linkActive-box p:nth-child(2){
+	font-size: 1rem;
+	color: #5c5c5c;
+	line-height: 3rem;
+}
+.linkActive-box p:nth-child(3){
+	font-size: .9rem;
+	color: #4d4d4d;
+	line-height: 1.2rem;
+	width: 80%;
+	margin: 1rem auto;
+	text-align: left;
+}
+.linkActive-box p:nth-child(5){
+	font-size: 1rem;
+	color: #fc9a69;
+	line-height: 1.2rem;
+	margin-top: 1.5rem;
+	font-weight: normal;
+}
+
+
+.service-box .service-top{
+	padding: 4rem 0 1rem 0;
+}
+.service-box .service-top p:nth-child(1){
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: 400;
+	width: 5rem;
+	border-bottom: 1px solid #fff;
+	margin: 0 auto;
+}
+.service-box .service-top p:nth-child(2){
+	font-size: .9rem;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1rem 0;
+	text-align: left;
+}
+.service-box .service-top p:nth-child(2) span{
+	padding-top:1rem; 
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.service-box .cont{
+	text-align: left;
+	font-size: .9rem;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+.service-box .cont ul li p:nth-child(1){
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 1rem 0;
+}
+.service-box .cont ul li p.tit span{
+	display: block;
+	padding: .5rem 0;
+}
