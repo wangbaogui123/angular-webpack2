@@ -1,0 +1,11 @@
+node_modules
+dashboard.iml
+.idea
+err.log
+out.log
+out.*
+.log
+.project
+rev
+target
+.DS_Store
