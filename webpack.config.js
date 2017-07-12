@@ -7,7 +7,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle-[chunkhash].js',
-    publicPath: "/mobile/dist/"
+    publicPath: "/dist/"
   },
   module: {
     rules: [

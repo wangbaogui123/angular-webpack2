@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/mobile/dist/";
+/******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 15);
@@ -761,10 +761,7 @@ module.exports = function (ngModule, $jq) {
 
     ngModule.factory('linkedMe', ['$http', '$q', '$rootScope', function ($http, $q, $rootScope) {
 
-        var linkedMeServer_url = "https://www.linkedme.cc/i";
-
-        // var linkedMeServer_url = "http://47.93.162.77:9090/t";
-
+        var linkedMeServer_url = "";
 
         return {
 
