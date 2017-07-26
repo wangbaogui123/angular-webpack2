@@ -3,11 +3,18 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
+  devtool:'eval-source-map', //定位错误信息所在位置；
   entry: './app/app.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle-[chunkhash].js',
     publicPath: "/dist/"
+  },
+  devServer: {
+    contentBase: "./public",//本地服务器所加载的页面所在的目录
+    colors: true,//终端中输出结果为彩色
+    historyApiFallback: true,//不跳转
+    inline: true//实时刷新
   },
   module: {
     rules: [

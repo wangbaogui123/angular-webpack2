@@ -11,6 +11,9 @@
     "angular",
     "webpack"
   ],
+  "scripts":{
+    
+  },
   "author": "linkedME",
   "license": "ISC",
   "dependencies": {
